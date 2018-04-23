@@ -37,6 +37,7 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.7' 
+  gem "factory_bot_rails", "~> 4.0"
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
 end
@@ -63,3 +64,5 @@ end
 gem 'simple_form'
 
 gem 'devise'
+
+
